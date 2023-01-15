@@ -16,7 +16,7 @@ def data_extraction():
         result = soup.find('span', {'class': 'waktu'})
         result = result.text.split(', ')
         tanggal = result[0]
-        waktu = result[py -m pip install --upgrade twine1]
+        waktu = result[1]
 
         # Get and assign magnitude, depth, ls, bt, location, and perceived data
         result = soup.find('div', {'class', 'col-md-6 col-xs-6 gempabumi-detail no-padding'})
