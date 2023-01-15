@@ -73,3 +73,8 @@ def show_data(result):
     print(f"Koordinat: LS={result['koordinat']['ls']}, BT={result['koordinat']['bt']}")
     print(f"Pusat: {result['lokasi']}")
     print(f"Dirasakan: {result['dirasakan']}")
+
+if __name__ == '__main__':
+    print('Main Application')
+    result = data_extraction()
+    show_data(result)
