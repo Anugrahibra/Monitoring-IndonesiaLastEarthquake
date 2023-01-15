@@ -16,3 +16,6 @@ if __name__ == '__main__':
     result = data_extraction()
     show_data(result)
 ```
+
+## Author
+Anugrah Ibra Pramudya

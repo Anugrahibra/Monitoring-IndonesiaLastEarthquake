@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Monitoring-IndonesiaLastEarthquake",
-    version="0.0.1",
+    version="0.0.2",
     install_requires=[
         'beautifulsoup4',
         'requests'
